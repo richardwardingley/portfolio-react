@@ -61,13 +61,26 @@ class App extends Component() {
       }
     ]
   }
+  render(){
+    const eachHobby = this.state.hobbies.map((hobbies)=> {
+      return <Hobbies
+      key = {hobbies.id}
+      photo ={hobbies.photo}
+      name = {hobbies.name}
+      skill = {hobbies.skill}
+      skillText = {hobbies.skillText} />
+    })
   return (
     <div className="App">
       <Navbar/>
-      <Hobbies/>
+      <Landing/>
+      <AboutMe/>
+      {eachHobby}
+      <Skills/>
       <ProjectExamples/>
     </div>
   );
+  }
 }
 
 export default App;

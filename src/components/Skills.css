@@ -1,0 +1,15 @@
+#skillsTitle {
+    font-size: 80px;
+    font-family: monospace;
+    padding: 200px 0 0 200px;
+}
+#skillsText {
+    font-size: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.skillsToolsSubTitles {
+    font-size: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}

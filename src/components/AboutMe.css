@@ -1,0 +1,10 @@
+#aboutMeTitle {
+    font-size: 80px;
+    font-family: monospace;
+    padding: 200px 0 0 200px;
+}
+#aboutText {
+    font-size: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}

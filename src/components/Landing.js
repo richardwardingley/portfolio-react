@@ -1,10 +1,11 @@
 import React from 'react';
+import './Landing.css';
 
 const Landing = () => {
     return (
         <div>
-            <div>Richard<br></br>Wardingley</div>
-            <div>An entry level coder, actively looking for an apprenticeship or other opportunities in software development.</div>
+            <div id="landingName">Richard<br></br>Wardingley</div>
+            <div id="landingText">An entry level coder, actively looking for an apprenticeship or other opportunities in software development.</div>
         </div>
     )
 }

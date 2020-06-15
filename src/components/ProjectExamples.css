@@ -1,0 +1,21 @@
+#projectsTitle {
+    font-size: 80px;
+    font-family: monospace;
+    padding: 200px 0 0 200px;
+    text-align: left;
+}
+#projectsBullets {
+    font-size: 30px;
+    padding-left: 130px;
+    padding-right: 100px;
+    text-align: left;
+}
+#footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 200px;
+}

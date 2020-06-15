@@ -2,14 +2,22 @@
     font-size: 80px;
     font-family: monospace;
     padding: 200px 0 0 200px;
+    text-align: left;
 }
 #skillsText {
     font-size: 30px;
     padding-left: 100px;
     padding-right: 100px;
+    text-align: left;
 }
 .skillsToolsSubTitles {
     font-size: 40px;
-    padding-left: 100px;
+    padding: 80px 100px 0 100px;
+    text-align: left;
+}
+#skillsBullets {
+    font-size: 30px;
+    padding-left: 130px;
     padding-right: 100px;
+    text-align: left;
 }

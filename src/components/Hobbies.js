@@ -1,9 +1,9 @@
-import React, { Component} from 'react';
+import React, { Component } from 'react';
 import './Hobbies.css';
 import gym from '../img/gym.png';
 import pianouke from '../img/pianouke.jpeg';
 
-class Hobbies extends Component() {
+class Hobbies extends Component {
 
     state = {
       hobbies:[
@@ -67,17 +67,17 @@ class Hobbies extends Component() {
     render(){
         const eachHobby = this.state.hobbies.map((hobbies)=> {
         return (
-        <div key = {hobbies.id}>
-        <img className="hobbyImg" src={hobbies.photo} alt=""/>
-        <div className="hobbyName">{hobbies.name}</div>
-        <div className="hobbySkill">{hobbies.skill}</div>
-        <div className="hobbySkillText">{hobbies.skillText}</div>
+        <div key = {hobbies.id} >
+          <img className="hobbyImg" src={hobbies.photo} alt=""/>
+          <div className="hobbyName">{hobbies.name}</div>
+          <div className="hobbySkill">{hobbies.skill}</div>
+          <div className="hobbySkillText">{hobbies.skillText}</div>
         </div>
         )
         })
                
         return (
-        <div>
+        <div id="allHobbiesDiv">
              {eachHobby}
         </div>
         )

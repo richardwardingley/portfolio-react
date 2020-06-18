@@ -1,0 +1,29 @@
+#allHobbiesDiv {
+    display: flex;
+    justify-content: space-evenly;
+}
+#hobbiesBoxes {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.hobBoxes {
+    text-align: center;
+    width: 20%;
+    height: 30vh;
+    margin: 20px;
+    border: 2px solid black;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.hobbyImg {
+    width: 100px;
+    height: 100px;
+}
+.hobNames {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,16 +1,16 @@
 #landingDiv {
-
+    height: 100vh;
     margin: 0;
 }
 #landingName {
     text-align: center;
-    font-size: 200px;
+    font-size: 120px;
     font-family: monospace;
-    padding: 100px 0 100px 0;
+    padding: 200px 0 100px 0;
     text-shadow: 5px 5px 5px grey;
     font-weight: bold;
 }
 #landingText {
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
 }

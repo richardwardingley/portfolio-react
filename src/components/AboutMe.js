@@ -4,7 +4,7 @@ import Hobbies from './Hobbies';
 
 const AboutMe = () => {
     return (
-        <div>
+        <div id="aboutMeDiv">
             <div id="aboutMeTitle">About me</div>
             <div id="aboutText">
                 Manchester based

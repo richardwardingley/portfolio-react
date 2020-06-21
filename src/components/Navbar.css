@@ -11,9 +11,6 @@ nav {
     top: 0;
     width: 100%;
 }
-#navIcons {
-    
-}
 nav a {
     text-decoration: none;
     color: white;
@@ -24,4 +21,14 @@ nav a:hover {
     background-color: white;
     color: black;
     height: px;
+}
+#navIconsDiv {
+    display: flex;
+    width: 250px;
+    justify-content: space-around;
+}
+.navIcons:hover {
+    background-color: white;
+    color: black;
+    display: inline;
 }

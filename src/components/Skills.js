@@ -1,5 +1,6 @@
 import React from 'react';
 import './Skills.css';
+import Tools from './Tools';
 
 const Skills = () => {
     return (
@@ -14,7 +15,10 @@ const Skills = () => {
             </div>
             <div>
                 <div className="skillsToolsSubTitles">Languages and developer tools used</div>
-                <div>*insert scrolling(?) picture icons of tools used here from tools.js component*</div>
+                <div>
+                    <Tools/>
+                    *insert scrolling(?) picture icons of tools used here from tools.js component*
+                </div>
             </div>
             <div>
                 <div className="skillsToolsSubTitles">Professional skills used</div>

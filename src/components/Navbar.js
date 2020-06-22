@@ -4,8 +4,6 @@ import {FaLinkedin} from 'react-icons/fa';
 import {BsEnvelopeFill} from 'react-icons/bs';
 import {FaGithub} from 'react-icons/fa';
 
-
-
 const Navbar = () => {
     return (
         <nav>

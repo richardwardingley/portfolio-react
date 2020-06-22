@@ -10,11 +10,11 @@ import ProjectExamples from './components/ProjectExamples';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <a id="home"><Navbar/></a>
       <Landing/>
-      <AboutMe/>
-      <Skills/>
-      <ProjectExamples/>
+      <a id="aboutMe"><AboutMe/></a>
+      <a id="skills"><Skills/></a>
+      <a id="projects"><ProjectExamples/></a>
     </div>
   );
 }

@@ -20,4 +20,20 @@ const ProjectExamples = () => {
     )
 }
 
+// // how to have a self-changing footer date:
+
+// const currentDate = new Date();
+// const year = currentDate.getFullYear();
+
+// // getting the date, then calling the getFullYear method on that date
+
+// const Footer = ()=>{
+// return(
+// <div>
+// <p> Copyright { year } </p>
+// </div>
+// )
+
+
+
 export default ProjectExamples;

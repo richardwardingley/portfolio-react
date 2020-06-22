@@ -12,7 +12,8 @@ import pythonlogo from '../img/pythonlogo.png';
 const Tools = () => {
     return (
         <div id="scrollingToolsDiv">
-            <img classname="toolsLogos" src={htmllogo} alt=""/>
+            <img src={htmllogo} alt=""/>
+            
             <img classname="toolsLogos" src={csslogo} alt=""/>
             <img src={jslogo} alt=""/>
             <img src={reactlogo} alt=""/>

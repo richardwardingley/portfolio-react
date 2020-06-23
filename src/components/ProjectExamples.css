@@ -4,18 +4,36 @@
     padding: 120px 0 0 200px;
     text-align: left;
 }
-#projectsBullets {
+#projectsText {
     font-size: 30px;
-    padding-left: 130px;
+    padding-left: 100px;
     padding-right: 100px;
     text-align: left;
 }
+#allProjectsDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: blue;
+}
+#eachProjectDiv {
+    background-color: red;
+    border: 2px solid black;
+    width: 20%;
+    padding: 10px;
+    margin: 30px;
+}
+.projectImg {
+    height: 170px;
+    width: 170px;
+}
+
 #footer {
     background-color: black;
     color: white;
     text-align: center;
     font-family: monospace;
-    font-size: 20px;
-    padding: 10px;
+    font-size: 18px;
+    padding: 5px;
     margin-top: 200px;
 }

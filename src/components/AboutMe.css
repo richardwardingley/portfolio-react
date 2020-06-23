@@ -2,15 +2,16 @@
     height: 100vh;
 }
 #aboutMeTitle {
-    font-size: 80px;
+    font-size: 50px;
+    font-weight: bold;
     font-family: monospace;
     padding: 120px 0 0 200px;
     text-align: left;
 }
 #aboutText {
+
     font-size: 30px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 30px 100px 30px 100px;
     text-align: left;
 }
 #hobbiesContainer {

@@ -1,31 +1,59 @@
 #projectsTitle {
-    font-size: 80px;
+    font-size: 50px;
+    font-weight: bold;
     font-family: monospace;
     padding: 120px 0 0 200px;
     text-align: left;
 }
 #projectsText {
     font-size: 30px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 30px 100px 30px 100px;
     text-align: left;
 }
 #allProjectsDiv {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: blue;
+    justify-content: center;
+
 }
 #eachProjectDiv {
-    background-color: red;
-    border: 2px solid black;
-    width: 20%;
+    background-color: black;
+    
+    width: 280px;
+    height: 280px;
     padding: 10px;
     margin: 30px;
 }
 .projectImg {
-    height: 170px;
-    width: 170px;
+    height: 280px;
+    width: 280px;
+    z-index: 1;
+}
+.projectName {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    top: -60%;
+    z-index: 10;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0 0 3px white;
+}
+.projectTechStack {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    top: -60%;
+    z-index: 10;
+    font-size: 20px;
+}
+.projectDesc {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    top: -60%;
+    z-index: 10;
+    font-size: 20px;
 }
 
 #footer {

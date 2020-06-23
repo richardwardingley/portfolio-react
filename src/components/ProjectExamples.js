@@ -29,7 +29,7 @@ class ProjectExamples extends Component {
                 id: 0,
                 name: "Blackjack",
                 photo: pianouke,
-                techStack: "Javascript DOM",
+                techStack: "Tech stack: Javascript DOM",
                 projectDesc: "How each player’s contribution is needed",
                 githubLink: ""
             },
@@ -37,7 +37,7 @@ class ProjectExamples extends Component {
                 id: 1,
                 name: "Cyber Pet",
                 photo: pianouke,
-                techStack: "Javascript DOM",
+                techStack: "Tech stack: Javascript DOM",
                 projectDesc: "How each player’s contribution is needed",
                 githubLink: ""
                 },
@@ -45,7 +45,7 @@ class ProjectExamples extends Component {
                 id: 2,
                 name: "Chatbot",
                 photo: pianouke,
-                techStack: "React",
+                techStack: "Tech stack: React",
                 projectDesc: "How each player’s contribution is needed",
                 githubLink: ""
             },
@@ -53,7 +53,7 @@ class ProjectExamples extends Component {
                 id: 3,
                 name: "Portfolio",
                 photo: pianouke,
-                techStack: "React",
+                techStack: "Tech stack: React",
                 projectDesc: "This portfolio!",
                 githubLink: ""
             },
@@ -61,7 +61,7 @@ class ProjectExamples extends Component {
                 id: 4,
                 name: "Node API project",
                 photo: pianouke,
-                techStack: "Node",
+                techStack: "Tech stack: Node",
                 projectDesc: "Node project using API",
                 githubLink: ""
             },
@@ -69,7 +69,7 @@ class ProjectExamples extends Component {
                 id: 5,
                 name: "Todo List",
                 photo: pianouke,
-                techStack: "Javascript and MongoDB",
+                techStack: "Tech stack: Javascript and MongoDB",
                 projectDesc: "How each player’s contribution is needed",
                 githubLink: ""
             },
@@ -77,7 +77,7 @@ class ProjectExamples extends Component {
                 id: 6,
                 name: "Python",
                 photo: pianouke,
-                techStack: "Python",
+                techStack: "Tech stack: Python",
                 projectDesc: "Something made in Python",
                 githubLink: ""
             },
@@ -85,7 +85,7 @@ class ProjectExamples extends Component {
                 id: 7,
                 name: "Python and Django",
                 photo: pianouke,
-                techStack: "Python and Django",
+                techStack: "Tech stack: Python and Django",
                 projectDesc: "Pthyon and Django project",
                 githubLink: ""
             },
@@ -98,7 +98,7 @@ class ProjectExamples extends Component {
         <div key = {projects.id} id="eachProjectDiv">
           <img className="projectImg" src={projects.photo} alt=""/>
           <div className="projectName">{projects.name}</div>
-          <div className="projectSkill">{projects.techStack}</div>
+          <div className="projectTechStack">{projects.techStack}</div>
           <div className="projectDesc">{projects.projectDesc}</div>
           <div className="githubIcon">{projects.githubLink}</div>
         </div>

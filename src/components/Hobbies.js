@@ -67,7 +67,7 @@ class Hobbies extends Component {
     render(){
         const eachHobby = this.state.hobbies.map((hobbies)=> {
         return (
-        <div key = {hobbies.id} >
+        <div key = {hobbies.id} id="eachHobbyDiv">
           <img className="hobbyImg" src={hobbies.photo} alt=""/>
           <div className="hobbyName">{hobbies.name}</div>
           <div className="hobbySkill">{hobbies.skill}</div>

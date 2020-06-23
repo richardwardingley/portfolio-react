@@ -1,29 +1,43 @@
 #allHobbiesDiv {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
-#hobbiesBoxes {
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-.hobBoxes {
-    text-align: center;
-    width: 20%;
-    height: 30vh;
-    margin: 20px;
-    border: 2px solid black;
-    position: relative;
-    text-align: center;
-    color: black;
+#eachHobbyDiv {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 30px;
 }
 .hobbyImg {
-    width: 100px;
-    height: 100px;
+    height: 200px;
+    width: 200px;
+    z-index: 1;
 }
-.hobNames {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.hobbyName {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    top: -70%;
+    z-index: 10;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0 0 3px white;
+}
+.hobbySkill {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    top: -70%;
+    z-index: 10;
+    font-size: 20px;
+}
+.hobbySkillText {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    top: -70%;
+    z-index: 10;
+    font-size: 20px;
 }

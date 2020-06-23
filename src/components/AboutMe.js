@@ -12,7 +12,7 @@ const AboutMe = () => {
                 Education – Undergrad, Masters, Say how they will help me in my job – systematic approach
             </div>
             <div id="hobbiesContainer">
-            <Hobbies/>
+                <Hobbies/>
             </div>
         </div>
     )

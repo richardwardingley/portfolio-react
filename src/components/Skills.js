@@ -15,10 +15,9 @@ const Skills = () => {
             </div>
             <div>
                 <div className="skillsToolsSubTitles">Languages and developer tools used</div>
-                <div>
+       
                     <Tools/>
-                    *insert scrolling(?) picture icons of tools used here from tools.js component*
-                </div>
+
             </div>
             <div>
                 <div className="skillsToolsSubTitles">Professional skills used</div>

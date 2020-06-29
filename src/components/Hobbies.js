@@ -68,10 +68,14 @@ class Hobbies extends Component {
         const eachHobby = this.state.hobbies.map((hobbies)=> {
         return (
         <div key = {hobbies.id} id="eachHobbyDiv">
-          <img className="hobbyImg" src={hobbies.photo} alt=""/>
-          <div className="hobbyName">{hobbies.name}</div>
-          <div className="hobbySkill">{hobbies.skill}</div>
-          <div className="hobbySkillText">{hobbies.skillText}</div>
+          <div id="eHTopLayerDiv">
+            <img className="hobbyImg" src={hobbies.photo} alt=""/>
+            <div className="hobbyName">{hobbies.name}</div>
+          </div>
+          <div id="eHBttmLayerDiv">
+            <div className="hobbySkill">{hobbies.skill}</div>
+            <div className="hobbySkillText">{hobbies.skillText}</div>
+          </div>
         </div>
         )
         })

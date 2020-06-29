@@ -4,33 +4,55 @@
     justify-content: space-evenly;
 }
 #eachHobbyDiv {
-    background-color: black;
+    border: 10px solid black;
     width: 200px;
     height: 200px;
-    padding: 10px;
-    margin: 30px;
+    margin: 20px;
+}
+#eHTopLayerDiv {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#eHTopLayerDiv:hover {
+    width: 200px;
+    height: 200px;
+    display: none;
+}
+#eHBttmLayerDiv {
+    width: 200px;
+    height: 200px;
+    display: none;
+}
+#eHBttmLayerDiv:hover {
+    width: 200px;
+    height: 200px;
+
 }
 .hobbyImg {
     height: 200px;
     width: 200px;
-    z-index: 1;
+}
+.hobbyImg:hover {
+    display: none;
 }
 .hobbyName {
     position: relative;
     text-align: center;
     align-items: center;
     top: -70%;
-    z-index: 10;
     font-size: 20px;
     font-weight: bold;
     text-shadow: 0 0 3px white;
+}
+.hobbyName:hover {
+    display: none;
 }
 .hobbySkill {
     position: relative;
     text-align: center;
     align-items: center;
     top: -70%;
-    z-index: 10;
     font-size: 20px;
 }
 .hobbySkillText {
@@ -38,6 +60,5 @@
     text-align: center;
     align-items: center;
     top: -70%;
-    z-index: 10;
     font-size: 20px;
 }

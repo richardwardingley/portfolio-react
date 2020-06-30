@@ -9,7 +9,7 @@ const Landing = () => {
             <div id="landingText">An entry level coder, actively looking for an apprenticeship or other opportunities in software development.</div>
             <div id="fullConstructDiv">
             <div><AiOutlineWarning className= "constructIcons"/></div>
-            <div id="constructionText"> *** This page is currently under construction whilst the required skills to complete it are being learnt. Please check back later for a more updated and finished product. ***</div>
+            <div id="constructionText"> *** This page is currently under construction whilst the required skills to complete it are being learnt. Please check back later for a more updated and finished product. For any enquiries please email richardwardingley@hotmail.com ***</div>
             <div><AiOutlineWarning className= "constructIcons"/></div>
             </div>
         </div>

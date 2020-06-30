@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6ee1399885cbccd3f98851b45c29ad3f",
+    "revision": "a0750eb2c33ca6e7701cb2dd00bfd295",
     "url": "/portfolio-react/index.html"
   },
   {
-    "revision": "765c77cb18b05c2be04c",
-    "url": "/portfolio-react/static/css/main.942cc106.chunk.css"
+    "revision": "d7e6abd62cee87703a70",
+    "url": "/portfolio-react/static/css/main.7a57ea06.chunk.css"
   },
   {
-    "revision": "ee90c4d9eb7b1ae958ac",
-    "url": "/portfolio-react/static/js/2.046904e4.chunk.js"
+    "revision": "91dd2b43060948e0e2ce",
+    "url": "/portfolio-react/static/js/2.ed598d19.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/portfolio-react/static/js/2.046904e4.chunk.js.LICENSE.txt"
+    "url": "/portfolio-react/static/js/2.ed598d19.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "765c77cb18b05c2be04c",
-    "url": "/portfolio-react/static/js/main.48404b11.chunk.js"
+    "revision": "d7e6abd62cee87703a70",
+    "url": "/portfolio-react/static/js/main.d05679f4.chunk.js"
   },
   {
     "revision": "105286aac3527f3b7f6e",
     "url": "/portfolio-react/static/js/runtime-main.78f6c475.js"
+  },
+  {
+    "revision": "836fd62b6580ae254bb61bb96c94903b",
+    "url": "/portfolio-react/static/media/choir.836fd62b.jpg"
   },
   {
     "revision": "71837401e9bf10020708e4716d4585fd",
@@ -38,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e42fd4cb7a977d58487227f87029c738",
     "url": "/portfolio-react/static/media/htmllogo.e42fd4cb.png"
+  },
+  {
+    "revision": "4b0bf2748dd3d9050b0c5ba34e159b08",
+    "url": "/portfolio-react/static/media/iceskating.4b0bf274.jpg"
   },
   {
     "revision": "b54fc1c9e4f229859a1b00205f5d14c0",
@@ -62,5 +70,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "70f87bba34487dc1c0cb8916d800c63b",
     "url": "/portfolio-react/static/media/reactlogo.70f87bba.png"
+  },
+  {
+    "revision": "d89e83edc13ea0fee5d0efe8d2e9c492",
+    "url": "/portfolio-react/static/media/rollerderby.d89e83ed.jpg"
   }
 ]);

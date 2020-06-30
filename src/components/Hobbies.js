@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import './Hobbies.css';
 import gym from '../img/gym.png';
 import pianouke from '../img/pianouke.jpeg';
+import choir from '../img/choir.jpg';
+import iceskating from '../img/iceskating.jpg';
+import rollerderby from '../img/rollerderby.jpg';
+
 
 class Hobbies extends Component {
 
@@ -10,7 +14,7 @@ class Hobbies extends Component {
         {
           id: 0,
           name: "Roller derby",
-          photo: pianouke,
+          photo: rollerderby,
           skill: "Team strategy",
           skillText: "How each player’s contribution is needed",
         },
@@ -31,14 +35,14 @@ class Hobbies extends Component {
         {
           id: 3,
           name: "Choir",
-          photo: pianouke,
+          photo: choir,
           skill: "Ciommunity",
           skillText: "The importance of working as a whole",
         },
         {
           id: 4,
           name: "Ice skating",
-          photo: pianouke,
+          photo: iceskating,
           skill: "Showmanship",
           skillText: "Sometimes it's important to show what you can do individually",
         }

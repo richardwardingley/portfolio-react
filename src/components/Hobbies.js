@@ -81,8 +81,16 @@ class Hobbies extends Component {
         })
                
         return (
-        <div id="allHobbiesDiv">
-             {eachHobby}
+          <div>
+            <div id="hobbiesTitle">
+              Hobbies
+            </div>
+            <div>
+              I have many hobbies and interests. Some are shown below, along with skills they have given me that will be beneficial in the workplace.
+            </div>
+            <div id="allHobbiesDiv">
+                {eachHobby}
+            </div>
         </div>
         )
     }

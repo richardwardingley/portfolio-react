@@ -7,9 +7,9 @@ const AboutMe = () => {
         <div id="aboutMeDiv">
             <div id="aboutMeTitle">About me</div>
             <div id="aboutText">
-                Manchester based
-                What I enjoy doing in work and how I approach it
-                Education – Undergrad, Masters, Say how they will help me in my job – systematic approach
+                I am an entry level software developer looking for opportunities in or around the Manchester area.<br/>
+                I enjoy varied work and I am adaptable when approaching tasks.<br/>
+                I have a science educational background having completed BSc Biochemistry and MSc Bionanotechnology. These have given me a systematic and analytical approach to problem solving.
             </div>
             <div id="hobbiesContainer">
                 <Hobbies/>

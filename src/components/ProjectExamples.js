@@ -109,7 +109,7 @@ class ProjectExamples extends Component {
             <div>
                 <div id="projectsTitle">Project examples</div>
                 <div id="projectsText">
-                    General text here saying about projects
+                    Below are examples of completed projects.
                 </div>
                 <div id="allProjectsDiv">
                     {eachProject}

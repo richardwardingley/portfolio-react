@@ -1,3 +1,9 @@
+#hobbiesTitle {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 100px 0 100px;
+    text-align: left;
+}
 #allHobbiesDiv {
     display: flex;
     flex-wrap: wrap;

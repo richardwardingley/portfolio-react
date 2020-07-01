@@ -7,15 +7,13 @@
 }
 #skillsText {
     font-size: 25px;
-
-    padding: 30px 100px 30px 100px;
-    padding-right: 100px;
+    padding: 30px 100px 0 100px;
     text-align: left;
 }
 .skillsToolsSubTitles {
     font-size: 30px;
     font-weight: bold;
-    padding: 80px 100px 0 100px;
+    padding: 40px 100px 8px 100px;
     text-align: left;
 }
 #skillsBullets {

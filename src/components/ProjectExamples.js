@@ -1,25 +1,18 @@
 import React, { Component } from 'react';
 import './ProjectExamples.css';
 import pianouke from '../img/pianouke.jpeg';
+import blackjack from '../img/blackjack.jpg';
+import cyberpet from '../img/cyberpet.png';
+import chatbot from '../img/chatbot.jpg';
+import portfolio from '../img/portfolio.JPG';
+import nodelogo from '../img/nodelogo.png';
+import mongologo from '../img/mongologo.png';
+import pythondjango from '../img/pythondjango.jpg';
+import fullstack from '../img/fullstack.jpg';
 
-// const ProjectExamples = () => {
-//     return (
-//         <div>
-//             <div id="projectsTitle">Project examples</div>
-//             <div>
-//                 <ul id="projectsBullets">
-//                     <li>dice game</li>
-//                     <li>cyberpet</li>
-//                     <li>chatbot</li>
-//                     <li>Fitness app</li>
-//                 </ul>
-//             </div>
-//             <div id="footer">
-//                 Richard Wardingley ©2020
-//             </div> 
-//         </div>
-//     )
-// }
+//dice game?
+//Fitness app?
+
 
 class ProjectExamples extends Component {
 
@@ -28,7 +21,7 @@ class ProjectExamples extends Component {
             {
                 id: 0,
                 name: "Blackjack",
-                photo: pianouke,
+                photo: blackjack,
                 techStack: "Tech stack: Javascript DOM",
                 projectDesc: "How each player’s contribution is needed",
                 githubLink: ""
@@ -36,7 +29,7 @@ class ProjectExamples extends Component {
             {
                 id: 1,
                 name: "Cyber Pet",
-                photo: pianouke,
+                photo: cyberpet,
                 techStack: "Tech stack: Javascript DOM",
                 projectDesc: "How each player’s contribution is needed",
                 githubLink: ""
@@ -44,7 +37,7 @@ class ProjectExamples extends Component {
             {
                 id: 2,
                 name: "Chatbot",
-                photo: pianouke,
+                photo: chatbot,
                 techStack: "Tech stack: React",
                 projectDesc: "How each player’s contribution is needed",
                 githubLink: ""
@@ -52,7 +45,7 @@ class ProjectExamples extends Component {
             {
                 id: 3,
                 name: "Portfolio",
-                photo: pianouke,
+                photo: portfolio,
                 techStack: "Tech stack: React",
                 projectDesc: "This portfolio!",
                 githubLink: ""
@@ -60,7 +53,7 @@ class ProjectExamples extends Component {
             {
                 id: 4,
                 name: "Node API project",
-                photo: pianouke,
+                photo: nodelogo,
                 techStack: "Tech stack: Node",
                 projectDesc: "Node project using API",
                 githubLink: ""
@@ -68,25 +61,25 @@ class ProjectExamples extends Component {
             {
                 id: 5,
                 name: "Todo List",
-                photo: pianouke,
+                photo: mongologo,
                 techStack: "Tech stack: Javascript and MongoDB",
                 projectDesc: "How each player’s contribution is needed",
                 githubLink: ""
             },
             {
                 id: 6,
-                name: "Python",
-                photo: pianouke,
-                techStack: "Tech stack: Python",
-                projectDesc: "Something made in Python",
+                name: "Python and Django",
+                photo: pythondjango,
+                techStack: "Tech stack: Python and Django",
+                projectDesc: "Pthyon and Django project",
                 githubLink: ""
             },
             {
                 id: 7,
-                name: "Python and Django",
-                photo: pianouke,
-                techStack: "Tech stack: Python and Django",
-                projectDesc: "Pthyon and Django project",
+                name: "Fullstack MERN",
+                photo: fullstack,
+                techStack: "Tech stack: MongoDB, Express, React, Node",
+                projectDesc: "A fullstack group project - currently in progress!",
                 githubLink: ""
             },
         ]
@@ -109,7 +102,7 @@ class ProjectExamples extends Component {
             <div>
                 <div id="projectsTitle">Project examples</div>
                 <div id="projectsText">
-                    Below are examples of completed projects.
+                    Below are examples of completed projects. Each project included some form of HTML and CSS.
                 </div>
                 <div id="allProjectsDiv">
                     {eachProject}

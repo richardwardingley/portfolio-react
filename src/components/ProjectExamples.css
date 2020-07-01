@@ -24,6 +24,7 @@
     margin: 30px;
 }
 .projectImg {
+    background-color: white;
     height: 280px;
     width: 280px;
     z-index: 1;

@@ -12,9 +12,10 @@ const Navbar = () => {
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <div id="navIconsDiv">
-            <BsEnvelopeFill className="navIcons"/>
-            <FaLinkedin className="navIcons"/>
-            <FaGithub className="navIcons"/>
+            <a href="#contactMe"><BsEnvelopeFill className="navIcons"/></a>
+            <a href="https://www.linkedin.com/in/richardwardingley/" target="_blank" className= "navIcons"><FaLinkedin className="navIcons"/></a>
+            <a href="https://github.com/richardwardingley" target="_blank" className= "navIcons"><FaGithub className="navIcons"/></a>
+            
             </div>
         </nav>
     )

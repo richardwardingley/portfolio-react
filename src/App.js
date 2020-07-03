@@ -5,6 +5,7 @@ import Landing from './components/Landing';
 import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import ProjectExamples from './components/ProjectExamples';
+import ContactMe from './components/ContactMe';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <a id="aboutMe"><AboutMe/></a>
       <a id="skills"><Skills/></a>
       <a id="projects"><ProjectExamples/></a>
+      <a id="contactMe"><ContactMe/></a>
     </div>
   );
 }

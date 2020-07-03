@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './ProjectExamples.css';
-import pianouke from '../img/pianouke.jpeg';
 import blackjack from '../img/blackjack.jpg';
 import cyberpet from '../img/cyberpet.png';
 import chatbot from '../img/chatbot.jpg';
@@ -106,9 +105,6 @@ class ProjectExamples extends Component {
                 </div>
                 <div id="allProjectsDiv">
                     {eachProject}
-                </div>
-                <div id="footer">
-                    Richard Wardingley ©2020
                 </div>
             </div>
         )

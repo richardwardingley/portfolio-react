@@ -28,7 +28,7 @@
 #eHTopLayerDiv:hover {
     width: 200px;
     height: 200px;
-    display: none;
+    /* display: none; */
 }
 #eHBttmLayerDiv {
     width: 200px;
@@ -45,19 +45,22 @@
     width: 200px;
 }
 .hobbyImg:hover {
-    display: none;
+    /* display: none; */
 }
 .hobbyName {
     position: relative;
     text-align: center;
     align-items: center;
-    top: -70%;
+    top: -90%;
     font-size: 20px;
     font-weight: bold;
-    text-shadow: 0 0 3px white;
+    text-shadow: 1px -1px 3px white, 
+                -1px 1px 3px white, 
+                -1px -1px 3px white, 
+                 1px 1px 3px white;
 }
 .hobbyName:hover {
-    display: none;
+    /* display: none; */
 }
 .hobbySkill {
     position: relative;

@@ -31,13 +31,26 @@
     /* display: none; */
 }
 #eHBttmLayerDiv {
-    width: 200px;
-    height: 200px;
-    display: none;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    color: transparent;
+    /* background-color: blue; */
+    top: -100%;
+    position: relative;
 }
 #eHBttmLayerDiv:hover {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+
+    color: black;
+    text-shadow: 1px -1px 3px white, 
+                -1px 1px 3px white, 
+                -1px -1px 3px white, 
+                 1px 1px 3px white;
+    top: -100%;
 
 }
 .hobbyImg {
@@ -66,13 +79,13 @@
     position: relative;
     text-align: center;
     align-items: center;
-    top: -70%;
     font-size: 20px;
+    bottom: -43%;
 }
 .hobbySkillText {
     position: relative;
     text-align: center;
-    align-items: center;
-    top: -70%;
-    font-size: 20px;
+    align-items: flex-end;
+    font-size: 18px;
+    bottom: -45%;
 }

@@ -4,7 +4,7 @@ import Tools from './Tools';
 
 const Skills = () => {
     return (
-        <div>
+        <div id="skillsDiv">
             <div>
                 <div id="skillsTitle">Skills</div>
                 <div id="skillsText">

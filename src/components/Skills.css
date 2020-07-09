@@ -1,3 +1,6 @@
+#skillsDiv {
+
+}
 #skillsTitle {
     font-size: 50px;
     font-weight: bold;
@@ -18,6 +21,6 @@
 }
 #skillsBullets {
     font-size: 25px;
-    padding: 0 100px 200px 130px;
+    padding: 0 100px 150px 130px;
     text-align: left;
 }

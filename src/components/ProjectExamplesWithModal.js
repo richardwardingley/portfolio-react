@@ -91,7 +91,7 @@ class ProjectExamplesWithModal extends Component {
         <div key = {projects.id} id="eachProjectDiv">
           <img className="projectImg" src={projects.photo} alt=""/>
           <div className="projectName">{projects.name}</div>
-
+          <div><ProjectModal techStack={projects.techStack} projectDesc={projects.projectDesc} githubLink={projects.githubLink}/></div>
         </div>
         )
         })
@@ -103,7 +103,7 @@ class ProjectExamplesWithModal extends Component {
                     Below are examples of completed projects. Each project included some form of HTML and CSS.
                 </div>
                 <div id="allProjectsDiv">
-                    <div><ProjectModal/></div>
+                    
                     {projectNameImg}
                     
                 </div>

@@ -14,7 +14,7 @@ const customStyles = {
     }
   };
 
-  function ProjectModal(){
+  function ProjectModal(props){
     var subtitle;
     const [modalIsOpen,setIsOpen] = React.useState(false);
     function openModal() {
@@ -30,15 +30,10 @@ const customStyles = {
       setIsOpen(false);
     }
    
-    // const projectStackDescGit = state.projects.map((projects)=> {
-    //   return (
-    //   <div key = {projects.id} id="eachProjectDiv">     
-    //     <div className="projectTechStack">{projects.techStack}</div>
-    //     <div className="projectDesc">{projects.projectDesc}</div>
-    //     <div className="githubIcon">{projects.githubLink}</div>
-    //   </div>
-    //   )
-    //   })
+ 
+     
+
+  
       return (
         <div>
           <div onPointerOver ={openModal}>About App</div>
@@ -55,7 +50,11 @@ const customStyles = {
             <div id="modalText">This app is to connect people that want to provide help for others during lockdown. <br/>
             To use, register and login.
 
-
+            <div  id="eachProjectDiv">     
+              <div className="projectTechStack">{props.techStack}</div>
+              <div className="projectDesc">{props.projectDesc}</div>
+              <div className="githubIcon">{props.githubLink}</div>
+          </div>
 
             </div>
           </Modal>

@@ -36,7 +36,7 @@ class Hobbies extends Component {
           id: 3,
           name: "Choir",
           photo: choir,
-          skill: "Ciommunity -",
+          skill: "Community -",
           skillText: "The importance of working as a whole",
         },
         {

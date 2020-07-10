@@ -35,7 +35,7 @@ const customStyles = {
 
   
       return (
-        <div>
+        <div id="modalContainer">
           <div onPointerOver ={openModal}>About App</div>
           <Modal  id="fullModalDiv"
             isOpen={modalIsOpen}
@@ -46,17 +46,14 @@ const customStyles = {
           >
 
             <button id="modalCloseBtn" onClick={closeModal}>X</button>
-            <div id="modalTitle">About the app</div>
-            <div id="modalText">This app is to connect people that want to provide help for others during lockdown. <br/>
-            To use, register and login.
-
-            <div  id="eachProjectDiv">     
-              <div className="projectTechStack">{props.techStack}</div>
-              <div className="projectDesc">{props.projectDesc}</div>
-              <div className="githubIcon">{props.githubLink}</div>
-          </div>
-
+            <div id="modalTitle">{props.name}</div>
+            <div  id="">     
+              <div className="projectTechStack">{props.techStack}</div> <br/>
+              <div className="projectDesc">{props.projectDesc}</div><br/>
+              <div className="githubLink">{props.githubLink}</div>
             </div>
+
+            
           </Modal>
         </div>
       );

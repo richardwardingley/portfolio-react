@@ -38,7 +38,7 @@ class ProjectExamplesWithModal extends Component {
                 id: 2,
                 name: "Chatbot",
                 photo: chatbot,
-                techStack: "Tech stack: React",
+                techStack: "Tech stack: React and API",
                 projectDesc: "Have a quick chat to a chatbot!",
                 githubLink: "GITHUB LINK"
             },
@@ -76,10 +76,10 @@ class ProjectExamplesWithModal extends Component {
             },
             {
                 id: 7,
-                name: "Fullstack MERN",
+                name: "Vol-Connect",
                 photo: fullstack,
                 techStack: "Tech stack: MongoDB, Express, React, Node",
-                projectDesc: "A fullstack group project creating an app to connect people that need help with volunteers- currently in progress!",
+                projectDesc: "A fullstack MERN group project creating an app to connect people that need help with volunteers- currently in progress!",
                 githubLink: "GITHUB LINK"
             },
         ]

@@ -22,24 +22,24 @@ class ProjectExamples extends Component {
                 name: "Blackjack",
                 photo: blackjack,
                 techStack: "Tech stack: Javascript DOM",
-                projectDesc: "How each player’s contribution is needed",
-                githubLink: ""
+                projectDesc: "A playable version of blackjack against the dealer.",
+                githubLink: "GITHUB LINK"
             },
             {
                 id: 1,
                 name: "Cyber Pet",
                 photo: cyberpet,
                 techStack: "Tech stack: Javascript DOM",
-                projectDesc: "How each player’s contribution is needed",
-                githubLink: ""
+                projectDesc: "A choice of 3 pet to feed and keep happy.",
+                githubLink: "GITHUB LINK"
                 },
             {
                 id: 2,
                 name: "Chatbot",
                 photo: chatbot,
-                techStack: "Tech stack: React",
-                projectDesc: "How each player’s contribution is needed",
-                githubLink: ""
+                techStack: "Tech stack: React and API",
+                projectDesc: "Have a quick chat to a chatbot!",
+                githubLink: "GITHUB LINK"
             },
             {
                 id: 3,
@@ -47,7 +47,7 @@ class ProjectExamples extends Component {
                 photo: portfolio,
                 techStack: "Tech stack: React",
                 projectDesc: "This portfolio!",
-                githubLink: ""
+                githubLink: "GITHUB LINK"
             },
             {
                 id: 4,
@@ -55,31 +55,31 @@ class ProjectExamples extends Component {
                 photo: nodelogo,
                 techStack: "Tech stack: Node",
                 projectDesc: "Node project using API",
-                githubLink: ""
+                githubLink: "GITHUB LINK"
             },
             {
                 id: 5,
                 name: "Todo List",
                 photo: mongologo,
                 techStack: "Tech stack: Javascript and MongoDB",
-                projectDesc: "How each player’s contribution is needed",
-                githubLink: ""
+                projectDesc: "A simple todo list.",
+                githubLink: "GITHUB LINK"
             },
             {
                 id: 6,
-                name: "Python and Django",
+                name: "Pathfinder",
                 photo: pythondjango,
                 techStack: "Tech stack: Python and Django",
-                projectDesc: "Pthyon and Django project",
-                githubLink: ""
+                projectDesc: "Unexplained mysteries",
+                githubLink: "GITHUB LINK"
             },
             {
                 id: 7,
-                name: "Fullstack MERN",
+                name: "Vol-Connect",
                 photo: fullstack,
                 techStack: "Tech stack: MongoDB, Express, React, Node",
-                projectDesc: "A fullstack group project - currently in progress!",
-                githubLink: ""
+                projectDesc: "A fullstack MERN group project creating an app to connect people that need help with volunteers- currently in progress!",
+                githubLink: "GITHUB LINK"
             },
         ]
     }
@@ -88,11 +88,16 @@ class ProjectExamples extends Component {
         const eachProject = this.state.projects.map((projects)=> {
         return (
         <div key = {projects.id} id="eachProjectDiv">
-          <img className="projectImg" src={projects.photo} alt=""/>
-          <div className="projectName">{projects.name}</div>
-          <div className="projectTechStack">{projects.techStack}</div>
-          <div className="projectDesc">{projects.projectDesc}</div>
-          <div className="githubIcon">{projects.githubLink}</div>
+            <div>
+                <img className="projectImg" src={projects.photo} alt=""/>
+                <div className="projectName">{projects.name}</div>
+            </div>
+            <div id="ePTopLayerDiv">
+                <div >{projects.name}</div>
+                <div className="projectTechStack">{projects.techStack}</div>
+                <div className="projectDesc">{projects.projectDesc}</div>
+                <div className="githubLink">{projects.githubLink}</div>
+            </div>
         </div>
         )
         })

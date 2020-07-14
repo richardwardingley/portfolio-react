@@ -44,7 +44,7 @@ class Hobbies extends Component {
           name: "Ice skating",
           photo: iceskating,
           skill: "Showmanship -",
-          skillText: "Sometimes it's important to show what you can do individually",
+          skillText: "Sometimes it's good to prove individual ability",
         }
   
       ]

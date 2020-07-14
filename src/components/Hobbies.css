@@ -57,9 +57,6 @@
     height: 200px;
     width: 200px;
 }
-.hobbyImg:hover {
-    /* display: none; */
-}
 .hobbyName {
     position: relative;
     text-align: center;
@@ -71,9 +68,6 @@
                 -1px 1px 3px white, 
                 -1px -1px 3px white, 
                  1px 1px 3px white;
-}
-.hobbyName:hover {
-    /* display: none; */
 }
 .hobbySkill {
     position: relative;

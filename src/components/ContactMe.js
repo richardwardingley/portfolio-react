@@ -14,9 +14,9 @@ const ContactMe = () => {
                 <div className="contactIcons">
                 <BsEnvelopeFill/> &nbsp; &nbsp;<a href="mailto:richardwardingley@hotmail.com" target= "_blank" className= "contactLinks" >richardwardingley@hotmail.com</a>
                 </div>
-                <div className="contactIcons">
+                {/* <div className="contactIcons">
                 <FaPhoneAlt/> &nbsp; &nbsp;07743 02 02 05
-                </div>
+                </div> */}
                 <div className="contactIcons">
                 <FaLinkedin/> &nbsp; &nbsp;<a href="https://www.linkedin.com/in/richardwardingley/" target="_blank" className= "contactLinks" >LinkedIn</a>
                 </div>

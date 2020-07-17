@@ -8,6 +8,15 @@ import nodelogo from '../img/nodelogo.png';
 import mongologo from '../img/mongologo.png';
 import pythondjango from '../img/pythondjango.jpg';
 import fullstack from '../img/fullstack.jpg';
+import {FaHtml5} from 'react-icons/fa';
+import {FaCss3Alt} from 'react-icons/fa';
+import {IoLogoJavascript} from 'react-icons/io';
+import {FaReact} from 'react-icons/fa';
+import {AiFillApi} from 'react-icons/ai';
+import {FaNodeJs} from 'react-icons/fa';
+import {DiMongodb} from 'react-icons/di';
+import {FaPython} from 'react-icons/fa';
+import {DiDjango} from 'react-icons/di';
 import {FaGithub} from 'react-icons/fa';
 import {GrHeroku} from 'react-icons/gr';
 
@@ -23,7 +32,7 @@ class ProjectExamples extends Component {
                 id: 0,
                 name: "Blackjack",
                 photo: blackjack,
-                techStack: "Tech stack: Javascript DOM",
+                techStack: [<FaHtml5/>, 'HTML, ', <FaCss3Alt/>, 'CSS, ', <IoLogoJavascript/>, 'Javascript DOM, ', <FaGithub/>, 'Github'],
                 projectDesc: "A playable version of blackjack, against the dealer.",
                 githubLink: ""
             },
@@ -31,7 +40,7 @@ class ProjectExamples extends Component {
                 id: 1,
                 name: "Cyber Pet",
                 photo: cyberpet,
-                techStack: "Tech stack: Javascript DOM",
+                techStack: [<FaHtml5/>, 'HTML, ', <FaCss3Alt/>, 'CSS, ', <IoLogoJavascript/>, 'Javascript DOM, ', <FaGithub/>, 'Github'],
                 projectDesc: "A choice of 3 pets to feed and keep happy.",
                 githubLink: ""
                 },
@@ -39,7 +48,7 @@ class ProjectExamples extends Component {
                 id: 2,
                 name: "Chatbot",
                 photo: chatbot,
-                techStack: "Tech stack: React and API",
+                techStack: [<FaHtml5/>, 'HTML, ', <FaCss3Alt/>, 'CSS, ', <IoLogoJavascript/>, 'Javascript, ', <FaReact/>, 'React, ', <AiFillApi/>, 'API, ', <FaGithub/>, 'Github'],
                 projectDesc: "Have a quick chat to a chatbot!",
                 githubLink: ""
             },
@@ -47,15 +56,15 @@ class ProjectExamples extends Component {
                 id: 3,
                 name: "Portfolio",
                 photo: portfolio,
-                techStack: "Tech stack: React",
-                projectDesc: "This portfolio!",
+                techStack: [<FaHtml5/>, 'HTML, ', <FaCss3Alt/>, 'CSS, ', <IoLogoJavascript/>, 'Javascript, ', <FaReact/>, 'React, ', <FaGithub/>, 'Github'],
+                projectDesc: "This portfolio page!",
                 githubLink: ""
             },
             {
                 id: 4,
                 name: "Node API project",
                 photo: nodelogo,
-                techStack: "Tech stack: Node",
+                techStack: [<FaHtml5/>, 'HTML, ', <FaCss3Alt/>, 'CSS, ', <IoLogoJavascript/>, 'Javascript, ', <FaNodeJs/>, 'Node, ', <AiFillApi/>, 'API, ', <FaGithub/>, 'Github'],
                 projectDesc: "Node project using API",
                 githubLink: ""
             },
@@ -63,7 +72,7 @@ class ProjectExamples extends Component {
                 id: 5,
                 name: "Todo List",
                 photo: mongologo,
-                techStack: "Tech stack: Javascript and MongoDB",
+                techStack: [<FaHtml5/>, 'HTML, ', <FaCss3Alt/>, 'CSS, ', <IoLogoJavascript/>, 'Javascript, ', <DiMongodb/>, 'MongoDB, ', <FaGithub/>, 'Github'],
                 projectDesc: "A simple todo list.",
                 githubLink: ""
             },
@@ -71,7 +80,7 @@ class ProjectExamples extends Component {
                 id: 6,
                 name: "Pathfinder",
                 photo: pythondjango,
-                techStack: "Tech stack: Python and Django",
+                techStack: [<FaHtml5/>, 'HTML, ', <FaCss3Alt/>, 'CSS, ', <FaPython/>, 'Python, ', <DiDjango/>, 'Django, ', <FaGithub/>, 'Github, ', <GrHeroku/>, 'Heroku'],
                 projectDesc: "Unexplained mysteries",
                 githubLink: ""
                 // <a href="https://frozen-oasis-03328.herokuapp.com/phenomena/dates/" target="_blank" id="pGithubLink"><GrHeroku/>Hosted on Heroku</a> 
@@ -80,7 +89,7 @@ class ProjectExamples extends Component {
                 id: 7,
                 name: "Vol-Connect",
                 photo: fullstack,
-                techStack: "Tech stack: MongoDB, Express, React, Node",
+                techStack: [<FaHtml5/>, 'HTML, ', <FaCss3Alt/>, 'CSS, ', <IoLogoJavascript/>, 'Javascript, ', <DiMongodb/>, 'MongoDB, ', <b>ex</b>, ' Express, ', <FaReact/>, 'React, ', <FaNodeJs/>, 'Node, ', <FaGithub/>, 'Github'],
                 projectDesc: "A fullstack MERN group project creating an app to connect people that need help with volunteers- currently in progress!",
                 githubLink: ""
             },
@@ -97,7 +106,7 @@ class ProjectExamples extends Component {
             </div>
             <div id="ePTopLayerDiv">
                 <div id="pNameInDesc">{projects.name}</div>
-                <div className="projectTechStack">{projects.techStack}</div>
+                <div className="projectTechStack">Tech stack: <br/> {projects.techStack}</div>
                 <div className="projectDesc">{projects.projectDesc}</div>
                 <div className="pGithubLink">{projects.githubLink}</div>
             </div>
@@ -109,7 +118,7 @@ class ProjectExamples extends Component {
             <div>
                 <div id="projectsTitle">Project examples</div>
                 <div id="projectsText">
-                    Below are examples of completed projects. Each project included some form of HTML and CSS.
+                    Below are examples of completed projects and the tech stack used.
                 </div>
                 <div id="allProjectsDiv">
                     {eachProject}

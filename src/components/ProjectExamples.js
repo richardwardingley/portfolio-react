@@ -34,7 +34,7 @@ class ProjectExamples extends Component {
                 photo: blackjack,
                 techStack: [<FaHtml5/>, 'HTML, ', <FaCss3Alt/>, 'CSS, ', <IoLogoJavascript/>, 'Javascript DOM, ', <FaGithub/>, 'Github'],
                 projectDesc: "A playable version of blackjack, against the dealer.",
-                githubLink: ""
+                githubLink: <a href="" target="_blank" className= "pGithubLink" ><FaGithub/> Hosted on Github pages</a>
             },
             {
                 id: 1,
@@ -42,7 +42,7 @@ class ProjectExamples extends Component {
                 photo: cyberpet,
                 techStack: [<FaHtml5/>, 'HTML, ', <FaCss3Alt/>, 'CSS, ', <IoLogoJavascript/>, 'Javascript DOM, ', <FaGithub/>, 'Github'],
                 projectDesc: "A choice of 3 pets to feed and keep happy.",
-                githubLink: ""
+                githubLink: <a href="" target="_blank" className= "pGithubLink" ><FaGithub/> Hosted on Github pages</a>
                 },
             {
                 id: 2,
@@ -50,7 +50,7 @@ class ProjectExamples extends Component {
                 photo: chatbot,
                 techStack: [<FaHtml5/>, 'HTML, ', <FaCss3Alt/>, 'CSS, ', <IoLogoJavascript/>, 'Javascript, ', <FaReact/>, 'React, ', <AiFillApi/>, 'API, ', <FaGithub/>, 'Github'],
                 projectDesc: "Have a quick chat to a chatbot!",
-                githubLink: ""
+                githubLink: <a href="" target="_blank" className= "pGithubLink" ><FaGithub/> Hosted on Github pages</a>
             },
             {
                 id: 3,
@@ -58,7 +58,7 @@ class ProjectExamples extends Component {
                 photo: portfolio,
                 techStack: [<FaHtml5/>, 'HTML, ', <FaCss3Alt/>, 'CSS, ', <IoLogoJavascript/>, 'Javascript, ', <FaReact/>, 'React, ', <FaGithub/>, 'Github'],
                 projectDesc: "This portfolio page!",
-                githubLink: ""
+                githubLink: <a href="" target="_blank" className= "pGithubLink" ><FaGithub/> Hosted on Github pages</a>
             },
             {
                 id: 4,
@@ -66,7 +66,7 @@ class ProjectExamples extends Component {
                 photo: nodelogo,
                 techStack: [<FaHtml5/>, 'HTML, ', <FaCss3Alt/>, 'CSS, ', <IoLogoJavascript/>, 'Javascript, ', <FaNodeJs/>, 'Node, ', <AiFillApi/>, 'API, ', <FaGithub/>, 'Github'],
                 projectDesc: "Node project using API",
-                githubLink: ""
+                githubLink: <a href="" target="_blank" className= "pGithubLink" ><FaGithub/> Hosted on Github pages</a>
             },
             {
                 id: 5,
@@ -74,16 +74,15 @@ class ProjectExamples extends Component {
                 photo: mongologo,
                 techStack: [<FaHtml5/>, 'HTML, ', <FaCss3Alt/>, 'CSS, ', <IoLogoJavascript/>, 'Javascript, ', <DiMongodb/>, 'MongoDB, ', <FaGithub/>, 'Github'],
                 projectDesc: "A simple todo list.",
-                githubLink: ""
+                githubLink: <a href="" target="_blank" className= "pGithubLink" ><FaGithub/> Hosted on Github pages</a>
             },
             {
                 id: 6,
                 name: "Pathfinder",
                 photo: pythondjango,
                 techStack: [<FaHtml5/>, 'HTML, ', <FaCss3Alt/>, 'CSS, ', <FaPython/>, 'Python, ', <DiDjango/>, 'Django, ', <FaGithub/>, 'Github, ', <GrHeroku/>, 'Heroku'],
-                projectDesc: "Unexplained mysteries",
-                githubLink: ""
-                // <a href="https://frozen-oasis-03328.herokuapp.com/phenomena/dates/" target="_blank" id="pGithubLink"><GrHeroku/>Hosted on Heroku</a> 
+                projectDesc: "Unexplained mysteries with a 90s look",
+                githubLink: <a href="https://frozen-oasis-03328.herokuapp.com/phenomena/dates/" target="_blank" className= "pGithubLink" ><GrHeroku/> Hosted on Heroku</a> 
             },
             {
                 id: 7,
@@ -91,7 +90,7 @@ class ProjectExamples extends Component {
                 photo: fullstack,
                 techStack: [<FaHtml5/>, 'HTML, ', <FaCss3Alt/>, 'CSS, ', <IoLogoJavascript/>, 'Javascript, ', <DiMongodb/>, 'MongoDB, ', <b>ex</b>, ' Express, ', <FaReact/>, 'React, ', <FaNodeJs/>, 'Node, ', <FaGithub/>, 'Github'],
                 projectDesc: "A fullstack MERN group project creating an app to connect people that need help with volunteers- currently in progress!",
-                githubLink: ""
+                githubLink: <a href="" target="_blank" className= "pGithubLink" ><GrHeroku/> Hosted on Heroku</a> 
             },
         ]
     }
@@ -118,7 +117,7 @@ class ProjectExamples extends Component {
             <div>
                 <div id="projectsTitle">Project examples</div>
                 <div id="projectsText">
-                    Below are examples of completed projects and the tech stack used.
+                    Below are examples of projects and the tech stack used.
                 </div>
                 <div id="allProjectsDiv">
                     {eachProject}

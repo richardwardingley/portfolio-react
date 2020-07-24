@@ -70,19 +70,11 @@
     position: relative;
     text-align: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
-    margin: 10px 0 10px 0;
+    margin: 10px 0 5px 0;
 }
 .projectTechStack {
-    position: relative;
-    text-align: center;
-    align-items: center;
-    z-index: 10;
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-.projectDesc {
     position: relative;
     text-align: center;
     align-items: center;
@@ -90,8 +82,33 @@
     font-size: 18px;
     margin-bottom: 10px;
 }
-#pGithubLink {
-    font-weight: bold;
-    text-decoration: none;
-
+.projectDesc {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    z-index: 10;
+    font-size: 17px;
+    margin-bottom: 10px;
 }
+.pGithubLink {
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: none;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    top: 88%;
+    left: 0%;
+    color: black;
+    text-shadow: 1px -1px 1px white, 
+                 -1px 1px 1px white, 
+                 -1px -1px 1px white, 
+                 1px 1px 1px white;
+            }
+.pGithubLink:hover {
+    text-decoration: underline;
+    color: blue;
+    font-size: 20px;
+}
+

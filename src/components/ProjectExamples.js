@@ -50,7 +50,7 @@ class ProjectExamples extends Component {
                 photo: chatbot,
                 techStack: [<FaHtml5/>, 'HTML, ', <FaCss3Alt/>, 'CSS, ', <IoLogoJavascript/>, 'Javascript, ', <FaReact/>, 'React, ', <AiFillApi/>, 'API, ', <FaGithub/>, 'Github'],
                 projectDesc: "Have a quick chat to a chatbot!",
-                githubLink: <a href="" target="_blank" className= "pGithubLink" ><FaGithub/> Hosted on Github pages</a>
+                githubLink: <a href="https://richardwardingley.github.io/chatbot-project/" target="_blank" className= "pGithubLink" ><FaGithub/> Hosted on Github pages</a>
             },
             {
                 id: 3,

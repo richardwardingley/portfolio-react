@@ -57,8 +57,8 @@ class ProjectExamples extends Component {
                 name: "Portfolio",
                 photo: portfolio,
                 techStack: [<FaHtml5/>, 'HTML, ', <FaCss3Alt/>, 'CSS, ', <IoLogoJavascript/>, 'Javascript, ', <FaReact/>, 'React, ', <FaGithub/>, 'Github'],
-                projectDesc: "This portfolio page!",
-                githubLink: <a href="" target="_blank" className= "pGithubLink" ><FaGithub/> Hosted on Github pages</a>
+                projectDesc: "This portfolio page! - An ongoing portfolio that is updated with new projects and ideas.",
+                githubLink: <br/>
             },
             {
                 id: 4,
